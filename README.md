@@ -33,6 +33,27 @@ También en / Also on: **[GreasyFork](https://greasyfork.org/es-419/users/159047
 
 ---
 
+## 🔒 Privacidad y seguridad / Privacy & security
+
+Todo se procesa en tu navegador: ningún script me envía datos a mí, y ninguno lleva
+telemetría ni analítica. Cada uno declara en su README —y en su panel de información,
+si lo tiene— qué guarda y a dónde se conecta, y pide los permisos (`@grant`, `@connect`)
+mínimos que necesita. Cuando hace falta un tercero lo digo con nombre: *YouTube Channel
+Tools* consulta Return YouTube Dislike (y puedes desactivarlo), y *Twitch Drops
+Highlighter* recurre a una API pública de drops solo si falla la consulta a Twitch.
+Los scripts son cortos a propósito, para que puedas leerlos tú. Si encuentras un
+problema de seguridad, ábreme un issue.
+
+Everything runs in your browser: no script sends data to me, and none carries telemetry
+or analytics. Each one states in its README —and in its info panel, where it has one—
+what it stores and where it connects, and requests the minimum permissions (`@grant`,
+`@connect`) it needs. Where a third party is involved I name it: *YouTube Channel Tools*
+queries Return YouTube Dislike (and you can turn it off), and *Twitch Drops Highlighter*
+falls back to a public drops API only if the Twitch query fails. The scripts are short on
+purpose, so you can read them yourself. Found a security problem? Open an issue.
+
+---
+
 ## 🔜 Próximamente / Coming soon
 Una **multiherramienta para PSP y PS Vita**. / A **multi-tool for PSP and PS Vita**.
 
