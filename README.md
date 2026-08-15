@@ -14,14 +14,14 @@ Install with [Tampermonkey](https://www.tampermonkey.net/). Each one ships scree
 
 All of them link to the exact product page rather than a search, except where the destination only offers a search. / Todos enlazan a la ficha del producto exacto, no a una búsqueda, salvo donde el destino solo ofrece buscador.
 
-- **[Steam to SteamDB Button](https://github.com/g31w0fw0rld/steam-to-steamdb-button)** — SteamDB button on games, bundles and packages. / Botón a SteamDB en juegos, bundles y paquetes.
-- **[GOG to GOGDB Button](https://github.com/g31w0fw0rld/gog-to-gogdb-button)** — GOGDB button on game pages. / Botón a GOGDB en las páginas de juego.
-- **[Epic Games Store to EGData](https://github.com/g31w0fw0rld/epic-games-store-to-egdata)** — EGData button under every purchase button, plus a discount filter, remembered sort and a shareable link on your wishlist. / Botón a EGData bajo cada botón de compra, más filtro de ofertas, orden recordado y enlace compartible en la lista de deseos.
+- **[Steam to SteamDB Button](https://github.com/g31w0fw0rld/steam-to-steamdb-button)** — SteamDB, GG.deals and PCGamingWiki buttons on games, bundles and packages, in 30 languages. / Botones a SteamDB, GG.deals y PCGamingWiki en juegos, bundles y paquetes, en 30 idiomas.
+- **[GOG to GOGDB Button](https://github.com/g31w0fw0rld/gog-to-gogdb-button)** — GOGDB, GG.deals and PCGamingWiki buttons on game pages, in 7 languages. / Botones a GOGDB, GG.deals y PCGamingWiki en las páginas de juego, en 7 idiomas.
+- **[Epic Games Store to EGData](https://github.com/g31w0fw0rld/epic-games-store-to-egdata)** — EGData, GG.deals and PCGamingWiki buttons under every purchase button, plus a discount filter, remembered sort and a shareable link on your wishlist. 32 languages. / Botones a EGData, GG.deals y PCGamingWiki bajo cada botón de compra, más filtro de ofertas, orden recordado y enlace compartible en la lista de deseos. 32 idiomas.
 - **[GGDeals → PCGamingWiki](https://github.com/g31w0fw0rld/ggdeals-to-pcgamingwiki)** — PCGamingWiki button on games, packs and DLC, PC only. / Botón a PCGamingWiki en juegos, packs y DLC, solo en PC.
 - **[PCGamingWiki → GGDeals](https://github.com/g31w0fw0rld/pcgamingwiki-to-ggdeals)** — direct link and title search on GG.deals, next to "Availability". / Enlace directo y búsqueda en GG.deals junto a «Availability».
-- **[Humble Bundle Tools](https://github.com/g31w0fw0rld/humble-bundle-tools)** — wishlist sorting and filters, plus GG.deals and PCGamingWiki buttons on PC products. / Orden y filtros en la lista de deseos, más botones a GG.deals y PCGamingWiki en productos de PC.
-- **[Microsoft Store Locale Redirect](https://github.com/g31w0fw0rld/microsoft-store-locale-redirect)** — 21 locales to see prices in the region you pick, plus wishlist tools. / 21 locales para ver precios en la región que elijas, y herramientas de lista de deseos.
-- **[Xbox Store Locale Redirect](https://github.com/g31w0fw0rld/xbox-store-locale-redirect)** — the same for the Xbox Store. / Lo mismo para Xbox Store.
+- **[Humble Bundle Tools](https://github.com/g31w0fw0rld/humble-bundle-tools)** — wishlist sorting and filters, plus GG.deals and PCGamingWiki buttons on PC products. 6 languages. / Orden y filtros en la lista de deseos, más botones a GG.deals y PCGamingWiki en productos de PC. 6 idiomas.
+- **[Microsoft Store Locale Redirect](https://github.com/g31w0fw0rld/microsoft-store-locale-redirect)** — 21 locales to see prices in the region you pick, wishlist tools, and GG.deals and PCGamingWiki buttons on game pages. 13 languages. / 21 locales para ver precios en la región que elijas, herramientas de lista de deseos y botones a GG.deals y PCGamingWiki en las fichas de juego. 13 idiomas.
+- **[Xbox Store Locale Redirect](https://github.com/g31w0fw0rld/xbox-store-locale-redirect)** — the same for the Xbox Store, with the buttons reaching DLC, editions and packs too. / Lo mismo para Xbox Store, con los botones también en DLC, ediciones y paquetes.
 
 ### 📺 Streaming & drops / Streaming y drops
 
@@ -33,8 +33,8 @@ Both work the same way: they highlight the campaigns matching your keywords on t
 ### 🧰 Others / Otros
 
 - **[YouTube Channel Tools](https://github.com/g31w0fw0rld/youtube-channel-tools)** — favorite and avoid channel lists on videos, Shorts and mobile, with the dislike count restored and three privacy modes. Auto-actions are optional and off by default. ⚠️ / Canales favoritos y a evitar en vídeos, Shorts y móvil, con el conteo de dislikes recuperado y tres modos de privacidad. Las auto-acciones son opcionales y vienen apagadas. ⚠️
-- **[Indiegala Giveaway Bulk Tools](https://github.com/g31w0fw0rld/indiegala-bulk-join)** — a reorderable ticket queue that queues beyond your balance, a GalaSilver widget, prize checking and wheel alerts. ⚠️ / Cola de boletos reordenable que encola aunque no te alcance el saldo, widget de GalaSilver, revisión de premios y avisos de la ruleta. ⚠️
-- **[Bing Rewards Auto Search](https://github.com/g31w0fw0rld/bing-rewards-auto-search)** — daily searches for Microsoft Rewards, with your own keywords and humanised pacing. ⚠️ / Búsquedas diarias para Microsoft Rewards, con palabras clave propias y ritmo humanizado. ⚠️
+- **[Indiegala Giveaway Bulk Tools](https://github.com/g31w0fw0rld/indiegala-bulk-join)** — a reorderable ticket queue that queues beyond your balance, a GalaSilver widget that warns you when you hit its cap, a ✕ to hide a giveaway until it ends, prize checking, wheel alerts, and GG.deals and PCGamingWiki buttons on store pages. ⚠️ / Cola de boletos reordenable que encola aunque no te alcance el saldo, widget de GalaSilver que avisa cuando llegas a su tope, ✕ para ocultar un giveaway hasta que termine, revisión de premios, avisos de la ruleta y botones a GG.deals y PCGamingWiki en las fichas de la tienda. ⚠️
+- **[Bing Rewards Auto Search](https://github.com/g31w0fw0rld/bing-rewards-auto-search)** — daily searches for Microsoft Rewards, with your own keywords and humanised pacing, stopping at what today's progress actually needs and telling you what your points are worth in Xbox / Microsoft Store credit. 22 languages. ⚠️ / Búsquedas diarias para Microsoft Rewards, con palabras clave propias y ritmo humanizado, que paran en lo que pide el progreso real del día y te dicen cuánto valen tus puntos en saldo Xbox / Microsoft Store. 22 idiomas. ⚠️
 
 ⚠️ = automates an action the site's terms may not permit; the full warning is in its README. / Automatiza una acción que las condiciones del sitio pueden no permitir; el aviso completo está en su README.
 
@@ -48,26 +48,32 @@ Everything runs in your browser: no script sends data to me, and none carries te
 or analytics. Each one states in its README —and in its info panel, where it has one—
 what it stores and where it connects, and requests the minimum permissions (`@grant`,
 `@connect`) it needs. The ones that talk to the site's own API do so **read-only**,
-reusing your session: *Kick Drops Highlighter* makes a single `GET` to the progress
-endpoint and *Twitch Drops Highlighter* sends three GraphQL queries and no mutation, so
-neither writes anything to your account. Where something is claimed or pressed for you,
-it is done on the site's own buttons, never through an API. Where a third party is
-involved I name it: *YouTube Channel Tools* queries Return YouTube Dislike (and you can
-turn it off), and *Twitch Drops Highlighter* falls back to a public drops API only if the
-Twitch query fails. The scripts are meant to be read top to bottom: they are commented
-and carry no dead code. Found a security problem? Open an issue.
+reusing your session: *Kick Drops Highlighter* makes three `GET`s (campaigns, progress
+and daily challenges), *Twitch Drops Highlighter* sends three GraphQL queries and no
+mutation, and *Bing Rewards Auto Search* reads the same points endpoint the Bing header
+itself uses — none of them writes anything to your account. Where something is claimed
+or pressed for you, it is done on the site's own buttons, never through an API. Where
+something outside the page is queried I name it: *YouTube Channel Tools* queries Return
+YouTube Dislike (and you can turn it off), *Twitch Drops Highlighter* falls back to a
+public drops API only if the Twitch query fails, and the *Microsoft Store* and *Xbox
+Store* scripts read Microsoft's public catalogue to tell games apart from everything
+else, with no session attached. The scripts are meant to be read top to bottom: they are
+commented and carry no dead code. Found a security problem? Open an issue.
 
 Todo se procesa en tu navegador: ningún script me envía datos a mí, y ninguno lleva
 telemetría ni analítica. Cada uno declara en su README —y en su panel de información,
 si lo tiene— qué guarda y a dónde se conecta, y pide los permisos (`@grant`, `@connect`)
 mínimos que necesita. Los que hablan con la API del propio sitio lo hacen **solo para
-leer**, reusando tu sesión: *Kick Drops Highlighter* hace un único `GET` al endpoint de
-progreso y *Twitch Drops Highlighter* manda tres consultas GraphQL y ninguna mutación,
-así que no escriben nada en tu cuenta. Donde algo se reclama o se pulsa por ti, se hace
-sobre los botones del propio sitio, nunca por API. Cuando hace falta un tercero lo digo
-con nombre: *YouTube Channel Tools* consulta Return YouTube Dislike (y puedes
-desactivarlo), y *Twitch Drops Highlighter* recurre a una API pública de drops solo si
-falla la consulta a Twitch. Los scripts se pueden leer de arriba abajo a propósito: van
+leer**, reusando tu sesión: *Kick Drops Highlighter* hace tres `GET` (campañas, progreso
+y retos diarios), *Twitch Drops Highlighter* manda tres consultas GraphQL y ninguna
+mutación, y *Bing Rewards Auto Search* lee el mismo endpoint de puntos que usa la
+cabecera de Bing —ninguno escribe nada en tu cuenta—. Donde algo se reclama o se pulsa
+por ti, se hace sobre los botones del propio sitio, nunca por API. Cuando se consulta
+algo de fuera de la página lo digo con nombre: *YouTube Channel Tools* consulta Return
+YouTube Dislike (y puedes desactivarlo), *Twitch Drops Highlighter* recurre a una API
+pública de drops solo si falla la consulta a Twitch, y los scripts de *Microsoft Store* y
+*Xbox Store* leen el catálogo público de Microsoft para distinguir los juegos del resto,
+sin mandar tu sesión. Los scripts se pueden leer de arriba abajo a propósito: van
 comentados y sin código muerto. Si encuentras un problema de seguridad, ábreme un issue.
 
 ---
