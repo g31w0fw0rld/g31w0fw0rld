@@ -32,6 +32,7 @@ Both work the same way: they highlight the campaigns matching your keywords on t
 
 ### 🧰 Others / Otros
 
+- **[SteamGifts Points Value](https://github.com/g31w0fw0rld/steamgifts-points-value)** — the real odds of every open giveaway —copies against entries, not the entry count alone— and what those odds cost you in points, on every row and inside a giveaway, with sorting by value, every page of a listing pulled into one, keywords with a panel that jumps to your matches, and a widget with your balance and your level. It repeats none of the site's own filtering, which is server-side and better. English and Spanish. / La probabilidad real de cada sorteo abierto —copias contra entradas, no solo el número de entradas— y lo que esa probabilidad te cuesta en puntos, en cada fila y dentro de un sorteo, con orden por valor, todas las páginas de un listado en una, palabras clave con un panel que salta a tus coincidencias, y widget con tu saldo y tu nivel. No repite ningún filtro del propio sitio, que los hace del lado del servidor y mejor. Inglés y español.
 - **[YouTube Channel Tools](https://github.com/g31w0fw0rld/youtube-channel-tools)** — favorite and avoid channel lists on videos, Shorts and mobile, with the dislike count restored and three privacy modes. Auto-actions are optional and off by default. ⚠️ / Canales favoritos y a evitar en vídeos, Shorts y móvil, con el conteo de dislikes recuperado y tres modos de privacidad. Las auto-acciones son opcionales y vienen apagadas. ⚠️
 - **[Indiegala Giveaway Bulk Tools](https://github.com/g31w0fw0rld/indiegala-bulk-join)** — a reorderable ticket queue that queues beyond your balance, a GalaSilver widget that warns you when you hit its cap, a ✕ to hide a giveaway until it ends, prize checking, wheel alerts, and GG.deals and PCGamingWiki buttons on store pages. ⚠️ / Cola de boletos reordenable que encola aunque no te alcance el saldo, widget de GalaSilver que avisa cuando llegas a su tope, ✕ para ocultar un giveaway hasta que termine, revisión de premios, avisos de la ruleta y botones a GG.deals y PCGamingWiki en las fichas de la tienda. ⚠️
 - **[Bing Rewards Auto Search](https://github.com/g31w0fw0rld/bing-rewards-auto-search)** — daily searches for Microsoft Rewards, with your own keywords and humanised pacing, stopping at what today's progress actually needs and telling you what your points are worth in Xbox / Microsoft Store credit. 22 languages. ⚠️ / Búsquedas diarias para Microsoft Rewards, con palabras clave propias y ritmo humanizado, que paran en lo que pide el progreso real del día y te dicen cuánto valen tus puntos en saldo Xbox / Microsoft Store. 22 idiomas. ⚠️
@@ -44,37 +45,47 @@ Also on / También en: **[GreasyFork](https://greasyfork.org/es-419/users/159047
 
 ## 🔒 Privacy & security / Privacidad y seguridad
 
-Everything runs in your browser: no script sends data to me, and none carries telemetry
-or analytics. Each one states in its README —and in its info panel, where it has one—
-what it stores and where it connects, and requests the minimum permissions (`@grant`,
-`@connect`) it needs. The ones that talk to the site's own API do so **read-only**,
-reusing your session: *Kick Drops Highlighter* makes three `GET`s (campaigns, progress
-and daily challenges), *Twitch Drops Highlighter* sends three GraphQL queries and no
-mutation, and *Bing Rewards Auto Search* reads the same points endpoint the Bing header
-itself uses — none of them writes anything to your account. Where something is claimed
-or pressed for you, it is done on the site's own buttons, never through an API. Where
-something outside the page is queried I name it: *YouTube Channel Tools* queries Return
-YouTube Dislike (and you can turn it off), *Twitch Drops Highlighter* falls back to a
-public drops API only if the Twitch query fails, and the *Microsoft Store* and *Xbox
-Store* scripts read Microsoft's public catalogue to tell games apart from everything
-else, with no session attached. The scripts are meant to be read top to bottom: they are
-commented and carry no dead code. Found a security problem? Open an issue.
+Everything runs in your browser: no script sends data to me, and none carries
+telemetry or analytics. Each one states in its README —and in its info panel,
+where it has one— what it stores and where it connects, and requests the
+minimum permissions (`@grant`, `@connect`) it needs. The ones that talk to the
+site's own API do so **read-only**, reusing your session: *Kick Drops
+Highlighter* makes three `GET`s (campaigns, progress and daily challenges),
+*Twitch Drops Highlighter* sends three GraphQL queries and no mutation, and
+*Bing Rewards Auto Search* reads the same points endpoint the Bing header
+itself uses — none of them writes anything to your account. *SteamGifts Points
+Value* has no API to call: when you press its button it asks the site for the
+listing pages after the one you are on, the same request clicking a page
+number would make. Where something is claimed or pressed for you, it is done
+on the site's own buttons, never through an API. Where something outside the
+page is queried I name it: *YouTube Channel Tools* queries Return YouTube
+Dislike (and you can turn it off), *Twitch Drops Highlighter* falls back to a
+public drops API only if the Twitch query fails, and the *Microsoft Store* and
+*Xbox Store* scripts read Microsoft's public catalogue to tell games apart
+from everything else, with no session attached. The scripts are meant to be
+read top to bottom: they are commented and carry no dead code. Found a
+security problem? Open an issue.
 
-Todo se procesa en tu navegador: ningún script me envía datos a mí, y ninguno lleva
-telemetría ni analítica. Cada uno declara en su README —y en su panel de información,
-si lo tiene— qué guarda y a dónde se conecta, y pide los permisos (`@grant`, `@connect`)
-mínimos que necesita. Los que hablan con la API del propio sitio lo hacen **solo para
-leer**, reusando tu sesión: *Kick Drops Highlighter* hace tres `GET` (campañas, progreso
-y retos diarios), *Twitch Drops Highlighter* manda tres consultas GraphQL y ninguna
-mutación, y *Bing Rewards Auto Search* lee el mismo endpoint de puntos que usa la
-cabecera de Bing —ninguno escribe nada en tu cuenta—. Donde algo se reclama o se pulsa
-por ti, se hace sobre los botones del propio sitio, nunca por API. Cuando se consulta
-algo de fuera de la página lo digo con nombre: *YouTube Channel Tools* consulta Return
-YouTube Dislike (y puedes desactivarlo), *Twitch Drops Highlighter* recurre a una API
-pública de drops solo si falla la consulta a Twitch, y los scripts de *Microsoft Store* y
-*Xbox Store* leen el catálogo público de Microsoft para distinguir los juegos del resto,
-sin mandar tu sesión. Los scripts se pueden leer de arriba abajo a propósito: van
-comentados y sin código muerto. Si encuentras un problema de seguridad, ábreme un issue.
+Todo se procesa en tu navegador: ningún script me envía datos a mí, y ninguno
+lleva telemetría ni analítica. Cada uno declara en su README —y en su panel de
+información, si lo tiene— qué guarda y a dónde se conecta, y pide los permisos
+(`@grant`, `@connect`) mínimos que necesita. Los que hablan con la API del
+propio sitio lo hacen **solo para leer**, reusando tu sesión: *Kick Drops
+Highlighter* hace tres `GET` (campañas, progreso y retos diarios), *Twitch
+Drops Highlighter* manda tres consultas GraphQL y ninguna mutación, y *Bing
+Rewards Auto Search* lee el mismo endpoint de puntos que usa la cabecera de
+Bing —ninguno escribe nada en tu cuenta—. *SteamGifts Points Value* no llama a
+ninguna API: al pulsar su botón le pide al sitio las páginas del listado
+siguientes a la que estás, la misma petición que haría pulsar un número de
+página. Donde algo se reclama o se pulsa por ti, se hace sobre los botones del
+propio sitio, nunca por API. Cuando se consulta algo de fuera de la página lo
+digo con nombre: *YouTube Channel Tools* consulta Return YouTube Dislike (y
+puedes desactivarlo), *Twitch Drops Highlighter* recurre a una API pública de
+drops solo si falla la consulta a Twitch, y los scripts de *Microsoft Store* y
+*Xbox Store* leen el catálogo público de Microsoft para distinguir los juegos
+del resto, sin mandar tu sesión. Los scripts se pueden leer de arriba abajo a
+propósito: van comentados y sin código muerto. Si encuentras un problema de
+seguridad, ábreme un issue.
 
 ---
 
