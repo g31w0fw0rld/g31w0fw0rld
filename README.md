@@ -36,6 +36,7 @@ Both work the same way: they highlight the campaigns matching your keywords on t
 - **[YouTube Channel Tools](https://github.com/g31w0fw0rld/youtube-channel-tools)** — favorite and avoid channel lists on videos, Shorts and mobile, with the dislike count restored and three privacy modes. Auto-actions are optional and off by default. ⚠️ / Canales favoritos y a evitar en vídeos, Shorts y móvil, con el conteo de dislikes recuperado y tres modos de privacidad. Las auto-acciones son opcionales y vienen apagadas. ⚠️
 - **[Indiegala Giveaway Bulk Tools](https://github.com/g31w0fw0rld/indiegala-bulk-join)** — a reorderable ticket queue that queues beyond your balance, a GalaSilver widget that warns you when you hit its cap, a ✕ to hide a giveaway until it ends, prize checking, wheel alerts, and GG.deals and PCGamingWiki buttons on store pages. ⚠️ / Cola de boletos reordenable que encola aunque no te alcance el saldo, widget de GalaSilver que avisa cuando llegas a su tope, ✕ para ocultar un giveaway hasta que termine, revisión de premios, avisos de la ruleta y botones a GG.deals y PCGamingWiki en las fichas de la tienda. ⚠️
 - **[Bing Rewards Auto Search](https://github.com/g31w0fw0rld/bing-rewards-auto-search)** — daily searches for Microsoft Rewards, with your own keywords and humanised pacing, stopping at what today's progress actually needs and telling you what your points are worth in Xbox / Microsoft Store credit. 22 languages. ⚠️ / Búsquedas diarias para Microsoft Rewards, con palabras clave propias y ritmo humanizado, que paran en lo que pide el progreso real del día y te dicen cuánto valen tus puntos en saldo Xbox / Microsoft Store. 22 idiomas. ⚠️
+- **[Alienware Arena ARP Tracker](https://github.com/g31w0fw0rld/alienware-arena-arp-tracker)** — a panel on every page with the ARP you still have to earn today and when each thing expires: time on site and Twitch at 00:00 UTC, single-use daily quests, Steam quests Monday to Monday, Discord on weekdays only, the campaign calendar, and the Battle Pass tokens that are wiped when the season closes. On a giveaway it says whether there are keys for your country and tier before you press anything, and in the Marketplace and the Vault it tags every card. 8 languages. Read-only: it never claims, bids or enters anything, because all of that goes through a captcha. / Un panel en cualquier página con el ARP que te queda por ganar hoy y cuándo caduca cada cosa: tiempo en el sitio y Twitch a las 00:00 UTC, quests diarias de un solo uso, las de Steam de lunes a lunes, Discord solo en laborables, el calendario de campaña y las fichas del pase, que se borran al cerrar la temporada. En un sorteo dice si hay claves para tu país y tu nivel antes de pulsar nada, y en el Marketplace y la Bóveda marca cada tarjeta. 8 idiomas. Solo lee: no reclama, no puja y no participa en nada, porque todo eso pasa por un captcha.
 
 ⚠️ = automates an action the site's terms may not permit; the full warning is in its README. / Automatiza una acción que las condiciones del sitio pueden no permitir; el aviso completo está en su README.
 
@@ -53,7 +54,9 @@ site's own API do so **read-only**, reusing your session: *Kick Drops
 Highlighter* makes three `GET`s (campaigns, progress and daily challenges),
 *Twitch Drops Highlighter* sends three GraphQL queries and no mutation, and
 *Bing Rewards Auto Search* reads the same points endpoint the Bing header
-itself uses — none of them writes anything to your account. *SteamGifts Points
+itself uses — none of them writes anything to your account. *Alienware Arena ARP
+Tracker* reads at most three of your own pages —the Control Center, the Battle Pass and
+your ARP log— with your existing session, and writes nothing. *SteamGifts Points
 Value* has no API to call: when you press its button it asks the site for the
 listing pages after the one you are on, the same request clicking a page
 number would make. Where something is claimed or pressed for you, it is done
@@ -74,7 +77,9 @@ propio sitio lo hacen **solo para leer**, reusando tu sesión: *Kick Drops
 Highlighter* hace tres `GET` (campañas, progreso y retos diarios), *Twitch
 Drops Highlighter* manda tres consultas GraphQL y ninguna mutación, y *Bing
 Rewards Auto Search* lee el mismo endpoint de puntos que usa la cabecera de
-Bing —ninguno escribe nada en tu cuenta—. *SteamGifts Points Value* no llama a
+Bing —ninguno escribe nada en tu cuenta—. *Alienware Arena ARP Tracker* lee como
+mucho tres páginas tuyas —el Centro de control, el pase y tu registro de ARP—
+con tu sesión ya abierta, y no escribe nada. *SteamGifts Points Value* no llama a
 ninguna API: al pulsar su botón le pide al sitio las páginas del listado
 siguientes a la que estás, la misma petición que haría pulsar un número de
 página. Donde algo se reclama o se pulsa por ti, se hace sobre los botones del
